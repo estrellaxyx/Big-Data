@@ -1,0 +1,7 @@
+organization := "upm.bd.group15"
+name := "ArrivalDelay"
+version := "1.0.0"
+scalaVersion := "2.12.1"
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.3.0"
+libraryDependencies += "org.apache.spark" %% "spark-mllib" % "3.3.0"
+libraryDependencies += "org.apache.spark" %% "spark-core" % "3.3.0"
